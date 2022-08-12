@@ -1,0 +1,12 @@
+.main-header-container {
+  padding-left: 55px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.main-header-title {
+  color: #334ac3;
+}
