@@ -4,8 +4,9 @@
   width: 100%;
 }
 
-.card-sum-container {
+.card-sum-container h1 {
   color: #334ac3;
+  font-weight: bolder;
 }
 
 .card-sum-container h3 {

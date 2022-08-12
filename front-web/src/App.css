@@ -1,5 +1,6 @@
 .App {
   background-color: var(--secondary-color);
+  height: 1000px;
 }
 .app-container {
   padding: 0 2%;

@@ -1,10 +1,16 @@
+import { SalesSummaryData } from '../../types';
+import { formatPrice } from '../../util/formatters';
 import './styles.css';
 
-function CardSum() {
+type Props = {
+    salesSummaryData: SalesSummaryData;
+}
+
+function CardSum({ salesSummaryData }: Props) {
     return (
         <div className="card-sum-container">
             <div>
-                <h1>R$ 746.484,00</h1>
+                <h1>{formatPrice(salesSummaryData.sum)}</h1>
                 <h3>Total de vendas</h3>
             </div>
         </div>
